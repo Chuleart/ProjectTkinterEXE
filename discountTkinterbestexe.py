@@ -48,7 +48,6 @@ def result_Disc():
         Disc_Minus = (IN_Count.get() * In_DisTotal.get()) / 100
         Toatal = IN_Count.get() - Disc_Minus 
     
-        os.system("cls")
         #TERMIMAL CHECK RESULT
         Out_Toatal1.set(int(Disc_Minus))
         Out_Toatal2.set(int(Toatal))
